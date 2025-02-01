@@ -10,7 +10,7 @@
 2. **Install dependencies:**
     
     ```bash
-    *Necessary one's for TS:* pnpm add tyepscript ts-node @types/node nodemon
+    *Necessary ones for TS:* pnpm add tyepscript ts-node @types/node nodemon
     *Dependencies of your choice:* pnpm add express @types/express
     
     ```
