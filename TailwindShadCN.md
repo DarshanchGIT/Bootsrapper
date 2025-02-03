@@ -31,7 +31,7 @@
 5. **Initialize Tailwind CSS configuration file:**
     
     ```bash
-    npx tailwindcss init
+    npx tailwindcss init -p
     
     ```
     
