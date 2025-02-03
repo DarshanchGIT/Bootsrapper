@@ -68,6 +68,20 @@
       },
     });
     ```
+7.2. Edit `tailwind.config.js`
+    
+    ```jsx
+    module.exports = {
+  content: [
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./public/index.html",         
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+    ```
     
 8. Initialize `Shadcn`
     
