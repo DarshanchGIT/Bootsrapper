@@ -10,7 +10,7 @@
 2. **Install dependencies:**
     
     ```bash
-    *Necessary ones for TS:* pnpm add tyepscript ts-node @types/node nodemon
+    *Necessary ones for TS:* pnpm add tyepscript ts-node @types/node nodemon -D concurrently
     *Dependencies of your choice:* pnpm add express @types/express
     
     ```
@@ -47,9 +47,7 @@
       "description": "",
       "main": "index.ts",
       "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "dev": "nodemon ./dist/index.js",
-        "build":"npx tsc"
+        "dev": "concurrently \"tsc --watch\" \"nodemon ./dist/index.js\""
       },
       "keywords": [],
       "author": "",
@@ -68,7 +66,6 @@
     
 6. Run Commands
     
-    ```json
-    pnpm run build(for build process)
+    ```
     pnpm run dev(listen the server)
     ```
